@@ -1,1 +1,1 @@
-# School-Simulation
+# :school: School Simulation
