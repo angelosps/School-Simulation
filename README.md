@@ -3,7 +3,7 @@
 This project is about simulating a school building.  
 
 A school building consists of the following:  
-* a yard
+* a schoolyard
 * a stair
 * three floors  
 
@@ -14,7 +14,7 @@ Each of the three floors consists of:
 So, we can organize the various spaces as follows:  
 ```bash
 School
-  |__ Yard
+  |__ Schoolyard
   |__ Stair
   |__ Floor1
   |     |__ Corridor
@@ -42,3 +42,11 @@ School
         |__ Classroom6
   
 ```
+Of course, every school has some students and teachers. A number of students and teachers are created randomly, for each of the school classrooms. 
+The goal is to place all the students and the teachers into their classroom. Note that, a student cannot enter his classroom if the teacher is already in! Also, note that if any space is full then no more students can enter into that space.
+A student, in order to be placed in its classroom, has to go through various places as follows:
+```bash 
+    -> Schoolyard -> Stair -> the Corridor of the Floor where his Classroom is -> Classroom
+```
+Instead, each teacher can be placed directly into his classroom. 
+After all, each of the students are exiting the school building in reverse order they entered in it and of course the teachers can be directly be placed out of the building.
