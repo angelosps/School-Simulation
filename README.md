@@ -2,7 +2,7 @@
 
 This project is about simulating a school building.  
 
-A school building constist of the following:  
+A school building consists of the following:  
 * a yard
 * a stair
 * three floors  
