@@ -64,11 +64,12 @@ If you want to enter different argument values, run the executable manually by g
 ``` bash
 $ ./schoolsim <C_class> <C_yard> <C_stair> <C_corr> 
 ```
+```bash
 Where,  
 <C_class> : capacity of each classroom.  
 <C_yard>  : capacity of the schoolyard.  
 <C_stair> : capacity of the staircase.  
 <C_corr>  : capacity of each of the corridors.  
-
+```
 
 
