@@ -43,10 +43,11 @@ School
   
 ```
 Of course, every school has some students and teachers. A number of students and teachers are created randomly, for each of the school classrooms. 
-The goal is to place all the students and the teachers into their classroom. Note that, a student cannot enter his classroom if the teacher is already in! Also, note that if any space is full then no more students can enter into that space.
+The goal is to place all the students and the teachers into their classroom. Note that each space of the school building has a capacity of students that can be in it at the same time. That means, if any space is full then no more students can enter into that space. All students of each classroom have to enter their classroom before the teacher gets in, otherwise they cannot enter their classroom and hence they miss the lesson!
+
 A student, in order to be placed in its classroom, has to go through various places as follows:
 ```bash 
--> Schoolyard -> Stair -> Corridor -> Classroom
+-> Schoolyard -> Staircase -> Corridor -> Classroom
 ```
 Instead, each teacher can be placed directly into his classroom. 
 After all, each of the students are exiting the school building in reverse order they entered in it and of course the teachers can be directly be placed out of the building.
