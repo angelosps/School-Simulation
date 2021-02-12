@@ -1,3 +1,5 @@
+/* File: school.cpp */
+
 #include <iostream>
 #include <string>
 
