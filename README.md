@@ -70,7 +70,7 @@ Where,
 <C_class> : capacity of each classroom.  
 <C_yard>  : capacity of the schoolyard.  
 <C_stair> : capacity of the staircase.  
-<C_corr>  : capacity of each of the corridors.  
+<C_corr>  : capacity of each corridor.  
 ```
 
 
