@@ -4,8 +4,6 @@
 
 #include <string>
 
-#define MAX_STUDENTS 1000
-
 using namespace std;
 
 enum Locations { out, inyard, instair, infloor, incorridor, inclass };
