@@ -60,7 +60,7 @@ $ make
 $ make run
 $ make clean
 ```
-**Note:** "make run" does the following ```$ /schoolsim 5 36 36 36```. 
+**Note:** "make run" does the following ```$ /schoolsim 15 50 50 50```. 
 If you want to enter different argument values, run the executable manually by giving in terminal the following:  
 ``` bash
 $ ./schoolsim <C_class> <C_yard> <C_stair> <C_corr> 
