@@ -54,7 +54,7 @@ After all, each of the students are exiting the school building in reverse order
 
 ## Usage
 Makefile it is provided. Use the Makefile for compile, run and clean. 
-In directory _schoolsim/_ open a terminal and do the following:
+In directory _schoolsim_/ open a terminal and do the following:
 ```bash
 $ make
 $ make run
