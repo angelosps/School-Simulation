@@ -52,9 +52,9 @@ A student, in order to be placed in its classroom, has to go through various pla
 Instead, each teacher can be placed directly into his classroom. 
 After all, each of the students are exiting the school building in reverse order they entered in it and of course the teachers can be placed outside the building directly.
 
-## Compile and Run instructions
+## Usage
 Makefile it is provided. Use the Makefile for compile, run and clean. 
-In terminal, do the following:
+In directory _schoolsim/_ open a terminal and do the following:
 ```bash
 $ make
 $ make run
